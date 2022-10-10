@@ -1,0 +1,42 @@
+/* Main header */
+
+.header-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 12%;
+}
+.header{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 75px;
+	max-width: 1420px;
+}
+/* Header logo */
+
+/* Header Menu */
+
+.menu{
+	display: flex;
+	list-style: none;
+}
+
+.item-menu{
+	position: relative;
+	margin: 0px 12px;
+}
+.item-menu a{
+	text-decoration: none;
+	font: var(--text-sm);
+	color: var(--text);
+}
+.submenu{
+	position: absolute;
+	display: flex;
+	list-style: none;
+}
+.item-submenu{
+	display: flex;
+}

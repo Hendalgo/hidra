@@ -1,0 +1,82 @@
+/* Format css */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Import Fonts  */
+@font-face {
+  font-family: 'Maragsa';
+  src: url('assets/fonts/Maragsâ.otf');
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('assets/fonts/Raleway-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'Raleway Italic';
+  src: url('assets/fonts/Raleway-Italic-VariableFont_wght.ttf');
+}
+
+/* Vars define */
+:root{
+  --gold:  #D0A85C;
+  --black: #040404;
+  --white: #FFFFFF;
+  --text:  #FFFFFF;
+  --dp1: 76px 'Raleway';
+  --dp2: 68px 'Raleway';
+  --dp3: 60px 'Raleway';
+  --dp4: 52px 'Raleway';
+  --dp5: 44px 'Raleway';
+  --dp1-b: bold 76px 'Raleway';
+  --dp2-b: bold 68px 'Raleway';
+  --dp3-b: bold 60px 'Raleway';
+  --dp4-b: bold 52px 'Raleway';
+  --dp5-b: bold 44px 'Raleway';
+  --dp1-m: 76px 'Maragsa';
+  --dp2-m: 68px 'Maragsa';
+  --dp3-m: 60px 'Maragsa';
+  --dp4-m: 52px 'Maragsa';
+  --dp5-m: 44px 'Maragsa';
+  --title1: 40px 'Raleway';
+  --title2: 32px 'Raleway';
+  --title3: 28px 'Raleway';
+  --title4: 24px 'Raleway';
+  --title5: 20px 'Raleway';
+  --title6: 16px 'Raleway';
+  --title1-m: 40px 'Maragsa';
+  --title2-m: 32px 'Maragsa';
+  --title3-m: 28px 'Maragsa';
+  --title4-m: 24px 'Maragsa';
+  --title5-m: 20px 'Maragsa';
+  --title6-m: 16px 'Maragsa';
+  --text-sm: 14px 'Raleway';
+  --text-xs: 12px 'Raleway';
+}
+/* Format size to titles */
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 32px;
+}
+h3{
+  font-size: 28px;
+}
+h4{
+  font-size: 24px;
+}
+h5{
+  font-size: 20px;
+}
+h6{
+  font-size: 16px;
+}
+p{
+  font-size: 16px;
+}
+/* Main color to body */
+body{
+  background-color: var(--black);
+}

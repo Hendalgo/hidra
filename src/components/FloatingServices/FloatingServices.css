@@ -1,0 +1,44 @@
+/* Styles to services container
+  and create a sub container
+  and stablish a max width 
+  to the floating services
+
+  this services are those 
+  that are superimposed on the hero
+*/
+.floating-service-container{
+  display: flex;
+  margin-top: -120px;
+  margin-left: 12%;
+  margin-right: 12%;
+  align-items: center;
+  justify-content: center;
+}
+.floating-services{
+  max-width: 1420px;
+  display: flex;
+  width: 100%;
+  padding: 44px;
+  background-color: var(--black);
+  justify-content: space-between;
+  background-color: var(--black);
+  border-radius: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+/* 
+  Floating individual service styles
+*/
+.floating-service{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 200px;
+}
+.service-title{
+  font: var(--title5-m);
+  color: var(--gold);
+}
+.service-text{
+  font: var(--text-sm);
+  color: var(--text);
+}

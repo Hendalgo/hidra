@@ -1,0 +1,27 @@
+[
+  {
+    "text": "Inicio",
+    "hasSubItems": false,
+    "uri": "#"
+  },
+  { 
+    "text": "Servicios",
+    "hasSubItems": true,
+    "subItems":[
+      {
+        "text": "X",
+        "uri": "#"
+      }
+    ]
+  },
+  {
+    "text": "Portfolio",
+    "hasSubItems": false,
+    "uri": "#"
+  },
+  {
+    "text": "Contacto",
+    "hasSubItems": false,
+    "uri": "#"
+  }
+]

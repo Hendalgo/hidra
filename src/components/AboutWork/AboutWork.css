@@ -1,0 +1,67 @@
+.ab-work-container{
+  display: flex;
+  justify-content: center;
+  margin: 0 12%;
+  margin-top: 150px;
+}
+.ab-work{
+  max-width: 1420px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ab-work-text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.ab-work-title{
+  font: var(--title1-m);
+  color: var(--gold);
+  text-align: center;
+  line-height: 50px;
+}
+.ab-work-description{
+  font-family: 'Raleway';
+  color: var(--text);
+  text-align: center;
+}
+.ab-work .browser{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 10px;
+  transition: width ease-in-out 200ms;
+}
+.ab-work .browser iframe{
+  width: 100%;
+  min-height: 750px;
+  border-radius: 10px;
+}
+.ab-work .browser .lateral-bar{
+  min-height: 200px;
+  width: 30px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);;
+}
+.ab-work-buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  gap: 20px;
+}
+.ab-work-buttons .page-select{
+  width: 130px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+}
+.ab-work-buttons .active{
+  background-color: rgba(255, 255, 255, 0.04);
+}
