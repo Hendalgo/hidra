@@ -24,35 +24,37 @@
   --black: #040404;
   --white: #FFFFFF;
   --text:  #FFFFFF;
-  --dp1: 76px 'Raleway';
-  --dp2: 68px 'Raleway';
-  --dp3: 60px 'Raleway';
-  --dp4: 52px 'Raleway';
-  --dp5: 44px 'Raleway';
-  --dp1-b: bold 76px 'Raleway';
-  --dp2-b: bold 68px 'Raleway';
-  --dp3-b: bold 60px 'Raleway';
-  --dp4-b: bold 52px 'Raleway';
-  --dp5-b: bold 44px 'Raleway';
-  --dp1-m: 76px 'Maragsa';
-  --dp2-m: 68px 'Maragsa';
-  --dp3-m: 60px 'Maragsa';
-  --dp4-m: 52px 'Maragsa';
-  --dp5-m: 44px 'Maragsa';
-  --title1: 40px 'Raleway';
-  --title2: 32px 'Raleway';
-  --title3: 28px 'Raleway';
-  --title4: 24px 'Raleway';
-  --title5: 20px 'Raleway';
-  --title6: 16px 'Raleway';
-  --title1-m: 40px 'Maragsa';
-  --title2-m: 32px 'Maragsa';
-  --title3-m: 28px 'Maragsa';
-  --title4-m: 24px 'Maragsa';
-  --title5-m: 20px 'Maragsa';
-  --title6-m: 16px 'Maragsa';
-  --text-sm: 14px 'Raleway';
-  --text-xs: 12px 'Raleway';
+  --primary-font: 'Maragsa';
+  --secondary-font: 'Raleway'; 
+  --dp1: 76px var(--secondary-font);
+  --dp2: 68px var(--secondary-font);
+  --dp3: 60px var(--secondary-font);
+  --dp4: 52px var(--secondary-font);
+  --dp5: 44px var(--secondary-font);
+  --dp1-b: bold 76px var(--secondary-font);
+  --dp2-b: bold 68px var(--secondary-font);
+  --dp3-b: bold 60px var(--secondary-font);
+  --dp4-b: bold 52px var(--secondary-font);
+  --dp5-b: bold 44px var(--secondary-font);
+  --dp1-m: 76px var(--primary-font);
+  --dp2-m: 68px var(--primary-font);
+  --dp3-m: 60px var(--primary-font);
+  --dp4-m: 52px var(--primary-font);
+  --dp5-m: 44px var(--primary-font);
+  --title1: 40px var(--secondary-font);
+  --title2: 32px var(--secondary-font);
+  --title3: 28px var(--secondary-font);
+  --title4: 24px var(--secondary-font);
+  --title5: 20px var(--secondary-font);
+  --title6: 16px var(--secondary-font);
+  --title1-m: 40px var(--primary-font);
+  --title2-m: 32px var(--primary-font);
+  --title3-m: 28px var(--primary-font);
+  --title4-m: 24px var(--primary-font);
+  --title5-m: 20px var(--primary-font);
+  --title6-m: 16px var(--primary-font);
+  --text-sm: 14px var(--secondary-font);
+  --text-xs: 12px var(--secondary-font);
 }
 /* Format size to titles */
 h1{
@@ -79,4 +81,59 @@ p{
 /* Main color to body */
 body{
   background-color: var(--black);
+}
+.absolute{
+  position: absolute;
+}
+.relative{
+  position: relative;
+}
+.inset-y-0{
+  top: 0;
+  bottom: 0;
+}
+.p-2{
+  padding: 0.5rem;
+}
+.justify-content{
+  justify-content: center;
+}
+.items-center{
+  align-items: center;
+}
+.cursor-ew-resize{
+  cursor: ew-resize;
+}
+.-mt-6 {
+  margin-top: -1.5rem;
+}
+.top-1\/2{
+    margin-top: 50%;
+}
+.z-10 {
+    z-index: 10;
+}
+.left-0 {
+    left: 0;
+}
+.bg-slate-500\/60 {
+  background-color: rgba(100,116,139,.6);
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.w-1\.5 {
+  width: 0.375rem;
+}
+.bg-slate-500\/60 {
+    background-color: rgba(100,116,139,.6);
+}
+.rounded-full {
+    border-radius: 9999px;
+}
+.w-1\.5 {
+    width: 0.375rem;
+}
+.h-8 {
+    height: 2rem;
 }

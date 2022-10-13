@@ -1,11 +1,11 @@
 .ab-work-container{
   display: flex;
   justify-content: center;
-  margin: 0 12%;
   margin-top: 150px;
+  width: 100vw;
+  padding: 0 12%;
 }
 .ab-work{
-  max-width: 1420px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -13,6 +13,9 @@
   align-items: center;
 }
 .ab-work-text{
+
+  max-width: 1420px;
+  padding: 0 12%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -30,26 +33,26 @@
   text-align: center;
 }
 .ab-work .browser{
+  width: 100%;
   display: flex;
   gap: 15px;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
-  border-radius: 10px;
-  transition: width ease-in-out 200ms;
-}
-.ab-work .browser iframe{
-  width: 100%;
-  min-height: 750px;
   border-radius: 10px;
 }
-.ab-work .browser .lateral-bar{
-  min-height: 200px;
-  width: 30px;
-  border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.5);;
+.ab-work .lateral-bar::after{
+  content: "Arrastra esto";
+  font: var(--title6-m);
+  text-align: center;
+  transform: rotateZ(45deg);
+  color: var(--text);
+  position: absolute;
+  top: -50px;
 }
 .ab-work-buttons{
+  
+  max-width: 1420px;
+  padding: 0 12%;
   display: flex;
   justify-content: center;
   margin-top: 70px;
@@ -64,4 +67,45 @@
 }
 .ab-work-buttons .active{
   background-color: rgba(255, 255, 255, 0.04);
+}
+.ab-work-nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  max-width: 1420px;
+  margin-top: 20px;
+}
+.top-browser{
+  max-width: 1420px;
+}
+.ab-work .browser .browser-content{
+  width: 100%;
+  min-height: 750px;
+  border-radius: 0px 0px 15px 15px;
+}
+.iframe-container{
+  position: relative;
+  width: 100%;
+  min-height: 750px;
+}
+.top{ 
+  display: flex;
+  justify-content: space-between;
+  background-color: #1E1E1E;
+  padding: 10px 15px;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+.controls{
+  display: flex;
+  align-items: center;
+}
+.controls h6{
+  color: rgba(235, 235, 245, 0.6);
+  font: var(--dp5-b);
+  line-height: 0;
+}
+.title h6{
+  color: rgba(235, 235, 245, 0.6);
+  font: bold var(--text-xs);
 }

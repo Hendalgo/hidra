@@ -28,7 +28,7 @@ const AboutWork = () => {
     setPage(
       {
         uri: 'https://restaurants.gq',
-        title: 'Tu Tiendita'
+        title: 'Restaurantes'
       }
     )
   }
@@ -41,7 +41,7 @@ const AboutWork = () => {
     setPage(
       {
         uri: 'https://tutiendita.shop',
-        title: 'Bodegones'
+        title: 'Tu Tiendita'
       }
     )
   }
@@ -54,7 +54,7 @@ const AboutWork = () => {
     setPage(
       {
         uri: 'https://bodegones.tk',
-        title: 'Restaurantes'
+        title: 'Bodegones'
       }
     )
   }
@@ -89,8 +89,8 @@ const AboutWork = () => {
               handdlePage= {handdleBodegon} 
             />
           </div>
-          <RezisableWindow>
-              <iframe src={page.uri} frameBorder="0"></iframe>
+          <RezisableWindow title={page.title}>
+            <iframe src={page.uri} className="browser-content" frameBorder="0"></iframe>
           </RezisableWindow>
         </div>
       </section>
