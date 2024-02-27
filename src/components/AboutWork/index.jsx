@@ -9,7 +9,7 @@ import RezisableWindow from '../RezisableWindow';
 const AboutWork = () => {
   const [page, setPage] = React.useState(
     {
-      uri: 'https:/restaurants.gq',
+      uri: 'https://localhost',
       title: 'Restaurantes'
     }
   );

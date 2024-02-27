@@ -3,6 +3,7 @@ import Header from '@components/Header';
 import Hero from '@components/Hero';
 import FloatingServices from '@components/FloatingServices';
 import AboutWork from '@components/AboutWork';
+import Footer from '@components/Footer';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         </div>
       </section>
       <AboutWork />
+      <Footer />
     </React.Fragment>
   )
 }

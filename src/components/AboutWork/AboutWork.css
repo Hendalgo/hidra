@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   margin-top: 150px;
-  width: 100vw;
   padding: 0 12%;
 }
 .ab-work{
@@ -33,6 +32,7 @@
   text-align: center;
 }
 .ab-work .browser{
+  margin-top: 20px;
   width: 100%;
   display: flex;
   gap: 15px;
@@ -40,7 +40,18 @@
   justify-content: center;
   border-radius: 10px;
 }
-.ab-work .lateral-bar::after{
+.ab-work .lateral-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.ab-work .lateral-bar > div{
+  position: relative;
+}
+.ab-work .lateral-bar > div::after{
   content: "Arrastra esto";
   font: var(--title6-m);
   text-align: center;
@@ -101,11 +112,15 @@
   align-items: center;
 }
 .controls h6{
-  color: rgba(235, 235, 245, 0.6);
+  color: rgba(243, 245, 235, 0.6);
   font: var(--dp5-b);
   line-height: 0;
+  letter-spacing: -3px;
 }
 .title h6{
   color: rgba(235, 235, 245, 0.6);
   font: bold var(--text-xs);
+}
+.after-title{
+  width: 70px;
 }
